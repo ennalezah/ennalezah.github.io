@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "I'd Rather Be Uncomfortable#"
+title:      "I'd Rather Be Uncomfortable"
 date:       2019-06-21 22:14:01 -0400
 permalink:  id_rather_be_uncomfortable
 ---
