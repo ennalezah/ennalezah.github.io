@@ -6,7 +6,8 @@ permalink:  id_rather_be_uncomfortable
 ---
 
 
-<div align="center"><img src="https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1872&q=80" alt ="Photo by Fab Lentz on Unsplash" width="100%"></div>
+<div align="center"><figure><img src="https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1872&q=80" alt ="Go up and never stop" width="100%">
+<figcaption><em>Photo by <a href="https://unsplash.com/@fossy?utmsource=unsplash&utmmedium=referral&utmcontent=creditCopyText" target="blank">Fab Lentz</a> on <a href="https://unsplash.com/@fossy?utmsource=unsplash&utmmedium=referral&utmcontent=creditCopyText" target="blank">Unsplash</a></em></figcaption></figure></div>
 
 It’s been over a year since I was last in school. Not a big deal, but at the time, I, honestly, thought that it would be the last time I’d be in school. I was content with my associate’s degree in Computer Programming. I was content with my new position as a WordPress Web Developer for a multi-million dollar digital marketing company. I was content with how my personal- and work-life was going, so I let myself get comfortable.
 
