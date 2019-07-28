@@ -15,13 +15,13 @@ Since this is the second time around I’ll be learning OOP, I realized that, in
 <div align="center"><img src="https://media1.tenor.com/images/63abe189905c035be66de6c3b548b825/tenor.gif?itemid=13134027" width="40%"></div>
 <br />
 <hr />
-### Object 
-A specific thing you create from a class, its own individual. All objects are created from a class.
+
+<h3>Object </h3>
+<p>A specific thing you create from a class, its own individual. All objects are created from a class.</p>
 
 
-
-### Class 
-This is the very first thing you’ll be creating in your object-oriented code. Without it, you wouldn’t be able to create anything. A class is the blueprint (the template, the structure, the fundamental building blocks) for creating objects. Class names are usually nouns, and I think of it as the general name for the object you’ll be creating. A class name begins with a capital letter, and if there is more than one word for your class, the class name should always be CamelCased (<-- just like that).
+<h3>Class </h3>
+<p>This is the very first thing you’ll be creating in your object-oriented code. Without it, you wouldn’t be able to create anything. A class is the blueprint (the template, the structure, the fundamental building blocks) for creating objects. Class names are usually nouns, and I think of it as the general name for the object you’ll be creating. A class name begins with a capital letter, and if there is more than one word for your class, the class name should always be CamelCased (<-- just like that).</p>
 
 ```
 class Person
@@ -30,15 +30,13 @@ end
 ```
 
 
-<br />
-### Instance 
-Instance and object go hand-in-hand. An instance is the occurrence of an object, and all instances are unique. For example, let’s say we’re creating a person. I’m a person and you’re a person--we both have eyes, a head of hair, hands, etc., and we have similar behaviors, like walking and talking. But just because we are both have the “blueprint” of a person, it doesn’t make us the same person. We are our own individual.
+<h3>Instance </h3>
+<p>Instance and object go hand-in-hand. An instance is the occurrence of an object, and all instances are unique. For example, let’s say we’re creating a person. I’m a person and you’re a person--we both have eyes, a head of hair, hands, etc., and we have similar behaviors, like walking and talking. But just because we are both have the “blueprint” of a person, it doesn’t make us the same person. We are our own individual.</p>
 
-Now bringing it back to OOP, person would be the class (because that’s what we are) and an instance would be me and another instance would be you (because we are each a specific and unique type of person).
-
+<p>Now bringing it back to OOP, person would be the class (because that’s what we are) and an instance would be me and another instance would be you (because we are each a specific and unique type of person).</p>
 
 
-### Instantiate
+<h3>Instantiate</h3>
 When you instantiate something, it means that you are creating a new object/a new instance from a class. This is done using the .new method. The syntax to instantiate something is --> variable_name = ClassName. new
 
 ```
@@ -50,8 +48,8 @@ john_doe = Person.new   # and another new object from the same class
 ```
 
 
-### Instance Methods
-These are, simply, methods defined in a class that tell the object what to do when called on.
+<h3>Instance Methods</h3>
+<p>These are, simply, methods defined in a class that tell the object what to do when called on.</p>
 
 ```
 class Person
@@ -65,16 +63,17 @@ jane_doe = Person.new
 jane_doe.talks --> “Hey there!”   # calling the instance method
 ```
 
-### Instance Variables
-Unlike the variables that we’ve been working with, where the scope is smaller and are only accessed within a local environment (usually, it can only be accessed in the method that it is in), instance variables can be used inside ANY instance method. To differentiate the two within our code, instance variable names always start with the @ symbol.
+
+<h3>Instance Variables</h3>
+<p>Unlike the variables that we’ve been working with, where the scope is smaller and are only accessed within a local environment (usually, it can only be accessed in the method that it is in), instance variables can be used inside ANY instance method. To differentiate the two within our code, instance variable names always start with the @ symbol.</p>
 
 
-### Setter
-This setter method (aka the writer) sets a new value for the instance variable. A good way to tell what a setter method is by the = sign that is added to the method name.
+<h3>Setter</h3>
+<p>This setter method (aka the writer) sets a new value for the instance variable. A good way to tell what a setter method is by the = sign that is added to the method name.</p>
 
-### Getter
-The getter method (aka the reader) reads the value that was set for the instance variable.
 
+<h3>Getter</h3>
+<p>The getter method (aka the reader) reads the value that was set for the instance variable.</p>
 
 ```
 class Person
