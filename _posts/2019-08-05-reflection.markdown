@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Reflection"
-date:       2019-08-05 23:33:15 +0000
+title:      "Reflecting On My First Ruby Project"
+date:       2019-08-05 19:33:16 -0400
 permalink:  reflection
 ---
 
