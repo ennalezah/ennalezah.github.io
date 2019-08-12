@@ -105,7 +105,7 @@ Here is the documentation I followed to get my terminal looking awesome: [https:
 By adding some color to the CLI, the output on the terminal is SOOO much easier to read. I also added some emojis to my CLI because… why not? I did this by adding unix code within my string.
 
 Here's a sneap-peak of how it looks now that I've added some design to it. So much better, right?!<br />
-<img src="https://media-private.canva.com/MADhum-iMEQ/1/screen.jpg?response-expires=Tue%2C%2006%20Aug%202019%2000%3A10%3A57%20GMT&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190805T214937Z&X-Amz-SignedHeaders=host&X-Amz-Expires=8479&X-Amz-Credential=AKIAJJATJK7JCUD446NA%2F20190805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8f1d09693cc4118c7b5be9125ae9b9f36cc03bc4011de74701f4b124dca7564f" style ="width: 50%; margin: 10px" />
+<a href='https://photos.google.com/share/AF1QipMq5p_iV_Dg2sDUVcBUESfdDkO37qrg9dlbHNWMO4nbtIUwBHpuXc2KqX1jhMoPXQ?key=S1VBTHlXRHh0R0pOcTJzdEhJQTlDV0JnOWNRcmN3&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/Kml9lh2DJWSzjnA3ux64HfjrQWvXSpQzH8JRhtdp5cnyv6mwJgErbbbI7ZoWTA9rTxKIdvSvVWi-835OrDEADfq-YFlnrLwom2QKnmNH36tuiP8LeLBn7YTF0Jxkj0goBn4zdYV4RQ=w2400' /></a>
 
 #### Overall Thoughts About My First Project
 This first project put me through a whirlwhind of emotions, but being able to complete the code and have it working how I wanted it has me feeling AHHH-MAZING! In the beginning of it all, I will admit that I was banging my head on the table and doubting myself. I wasn't sure if I actually knew what I was doing or if I learned anything at all (no thanks to imposter syndrome). 
