@@ -60,7 +60,7 @@ During this step, I set up my project files. I created the things I knew I neede
 
 After writing out the code for my app and got it working on the bare minimum, I spent an hour or two trying to "break" my app. I also had my husband test it out. I used this time to jot down where the problem areas were and what I can do or add to make it better for users.
 
-**5. Add the rest of the features.**
+**5. Add the missing parts and extra features.**
 
 I went back to the project specs and checked off the parts that my app already met. The parts I still had to do, I added it. This included the validations, password authetication,  and sessions. Once I got those added, I tested all over again to make sure that everything was still working fine.
 
