@@ -1,0 +1,64 @@
+---
+layout: post
+title:      "I Got This!"
+date:       2020-02-29 14:11:43 +0000
+permalink:  i_got_this
+---
+
+
+Just when I thought I didn’t have to deal with another keyword with multiple meanings anytime soon *(ahem—I’m looking at you, Ruby, with your ‘self’)*, JavaScript's ‘this’ came into the loop and left me, oh, so confused.
+
+I found ‘self’ and ‘this’ to be similar since they both deal with an object’s context. For ‘self’, it can easily be used to either refer to an instance or a class. As for ‘this’, it may be a little more challenging to grasp the concept of it. But after seeing a few examples and reading as many explanations as I can on it, I was able to understand when and how to use it.
+
+**Example 1**
+
+```
+const phoneCall = {
+  caller: "Mom", 
+  says: function() {
+    console.log(`${this.caller} is calling you.`);
+  }
+};
+
+phoneCall.says();
+// Mom is calling you.
+
+```
+
+In this first example, we have a phoneCall object and a function declaration inside of it. When the phoneCall object invokes that function (phoneCall.says()), 'this' refers to the call object, which is why the this.caller is "Mom". You can think of it this way: generally, 'this' will usually refer to the object invoking a function.
+
+**Example 2**
+
+```
+const phoneCall = {
+  caller: "Dad", 
+  says: () => {
+    console.log(`${this.caller} is calling you.`);
+  }
+};
+
+phoneCall.says();
+// undefined is calling you.
+
+```
+
+Technically, this example and and the previous one are the same, since they both have a phoneCall object and a function inside of them. But remember that "general tip" I mentioned in the last one? Well, it doesn't apply to this example because of the type of function it has. In this example, the function is an arrow function. Arrow functions aren't bound to the object they're in. Instead, arrow functions to refer to 'this' as whatever 'this' was before the phoneCall object was created. In this case, 'this' is bound to the global object, and because the global object doesn't have a says property, this.caller is undefined.
+
+**Example 3**
+
+```
+const phoneCall = {
+  caller: "BFF", 
+  says: () => {
+    console.log(`${this.caller} is calling you.`);
+  }
+};
+
+let ringRing = phoneCall.says;
+
+ringRing();
+
+// undefined is calling you.
+```
+
+Here, we take the says function from inside the phoneCall object and assign it to the variable, ringRing. When the says function is invoked (outside of the phoneCall object and by our ringRing variable that was created in the global context), 'this' ends up being equal to the global object. And just as before, because the global object does't have a caller attribute, this.caller is undefined. 
